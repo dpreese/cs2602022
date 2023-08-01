@@ -1,0 +1,67 @@
+.input {
+    margin: auto;
+    width: 100%;
+}
+
+.footer {
+   width: 100%;
+   height: 30px;  
+   position: fixed; 
+   bottom: 0px; 
+   text-align: center;
+   background-color: #343a40;
+}
+
+#gameReslts .results {
+    border: solid 1px white;
+}
+
+#gameResults {
+    color: white;
+    text-align: center;
+    display: block;
+}
+    #gameResults img {
+        width: 200px;
+        height: 200px;
+    }
+    #gameResults table {
+        position: inherit;
+        border: solid 1px white;
+        text-align: center;
+        
+    }
+
+#gameResults .column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.bg {
+    background-image: url(https://media.tenor.com/cKqWdvbmqAEAAAAC/2077-night.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .row::after {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

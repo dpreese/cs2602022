@@ -1,0 +1,70 @@
+/*body {*/
+/*    background-image:url('https://media4.giphy.com/media/3o7buijTqhjxjbEqjK/200w.gif?cid=82a1493b0f86v4gowtfgp3rggeabashozldvnowr1zi27hg9&rid=200w.gif&ct=g'); */
+    /*background-repeat:repeat;*/
+    /*width: 5000px;*/
+    /*height: 5000px;*/
+    
+/*}*/
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  /*background-image:url('https://media4.giphy.com/media/3o7buijTqhjxjbEqjK/200w.gif?cid=82a1493b0f86v4gowtfgp3rggeabashozldvnowr1zi27hg9&rid=200w.gif&ct=g');*/
+  background-image:url('https://media4.giphy.com/media/3og0IFrHkIglEOg8Ba/200w.gif?cid=82a1493be9al03ku18ppicz14umcaeitiotnfcuyz41p234w&rid=200w.gif&ct=g');
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-link, .navbar-brand {
+  color: white;
+  font-family: fantasy;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+a {
+  color: #FFFFFF;
+}
+
+.main_header {
+  margin: auto;
+  margin-top: 100px;
+  width: 60%;
+  /*border: 3px solid green;*/
+  padding: 10px;
+  color: white;
+  font-family: 'MBF Space';
+  font-size: 200%;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  align-items: center;
+  justify-content: center;
+}
+.bottom_right {
+  color: white;
+  font-family: 'MBF Space';
+  margin: auto;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+		display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
