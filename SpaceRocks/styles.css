@@ -1,0 +1,31 @@
+.nav-link, .navbar-brand {
+  color: white;
+  font-family: fantasy;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+body {
+    background-color: #D3D3D3;
+}
+.main_body {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    
+}
+
+.img {
+    padding: 5px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    size: 500%;
+}
